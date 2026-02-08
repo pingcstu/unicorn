@@ -49,4 +49,25 @@ describe("MobileNav", () => {
     expect(screen.getByRole("link", { name: "Work" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Contact" })).toBeInTheDocument();
   });
+
+  it("moves focus to the first link when opened", async () => {
+    const user = userEvent.setup();
+    render(<MobileNav />);
+
+    await user.click(screen.getByRole("button", { name: "Open menu" }));
+
+    expect(screen.getByRole("link", { name: "Services" })).toHaveFocus();
+  });
+
+  it("closes on Escape and returns focus to the toggle button", async () => {
+    const user = userEvent.setup();
+    render(<MobileNav />);
+
+    await user.click(screen.getByRole("button", { name: "Open menu" }));
+    await user.keyboard("{Escape}");
+
+    const button = screen.getByRole("button", { name: "Open menu" });
+    expect(button).toHaveAttribute("aria-expanded", "false");
+    expect(button).toHaveFocus();
+  });
 });

@@ -6,3 +6,8 @@
 
 # Local settings
 .claude/settings.local.json
+
+# Personal Knowledge
+persaonl_knowledge
+
+./obsidian

@@ -17,6 +17,7 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN npm ci
 COPY . .
+RUN mkdir -p public
 RUN npm run build
 
 # Stage 2: Production runner
@@ -31,8 +32,8 @@ RUN addgroup --system --gid 1001 nodejs \
 # Copy standalone output
 COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
-# Glob pattern makes this a no-op when public/ doesn't exist
-COPY --from=builder /app/publi[c] ./public
+# Ensure public exists (created in builder stage)
+COPY --from=builder /app/public ./public
 
 USER nextjs
 EXPOSE 3000
