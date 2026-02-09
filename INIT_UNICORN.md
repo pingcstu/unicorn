@@ -1,3 +1,8 @@
+---
+name: init-unicorn
+description: First-time setup guide for the Unicorn Project. Creates agent skill symlinks, starts the dev container, and initializes your personal knowledge vault.
+---
+
 # INIT_UNICORN.md — First-Time Setup
 
 Run these steps once after cloning or forking the Unicorn project.
