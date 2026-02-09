@@ -7,6 +7,8 @@ description: First-time setup guide for the Unicorn Project. Creates agent skill
 
 Run these steps once after cloning or forking the Unicorn project.
 
+> **Windows Users:** Clone or fork this project into your user folder (e.g., `C:\Users\YourName\Projects\unicorn`) to avoid file permission issues that require Administrator privileges.
+
 ## 1. Create Agent Skill Symlinks
 
 **Natural Language (Recommended)**:
