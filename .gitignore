@@ -6,8 +6,13 @@
 
 # Local settings
 .claude/settings.local.json
+.agent/
 
 # Personal Knowledge
-persaonl_knowledge
+personal_knowledge
 
-./obsidian
+# Curriculum (proprietary course content)
+curriculum/
+
+# Obsidian vault metadata
+.obsidian

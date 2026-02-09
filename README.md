@@ -31,6 +31,22 @@ Identify your audience and your delivery mechanism. A great idea with no path to
 | `knowledge/` | Your thinking vault (your head, Obsidian) |
 | `skills/` | AI agent patterns (power tools) |
 
+## Managing Your Projects
+
+Each project in `projects/` should be tracked in its own separate git repository. This gives you full control over visibility (public or private) for each project independently.
+
+```bash
+# 1. Add your project to .gitignore so it's not tracked by the parent repo
+echo "projects/my-new-project/" >> .gitignore
+
+# 2. Initialize and push to your own GitHub account
+cd projects/my-new-project
+git init
+gh repo create my-new-project --private --source=. --push
+```
+
+Use `--private` for projects you want to keep private, or `--public` for open source projects.
+
 ## Getting Started
 
 1. **Read** `curriculum/README.md` to understand the learning path
