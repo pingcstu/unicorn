@@ -526,6 +526,9 @@ export default function Home() {
               © {new Date().getFullYear()} John Smith. All rights reserved.
             </div>
             <div className="flex items-center gap-6">
+              <a href="/resume" className="text-sm text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                Resume
+              </a>
               <a href="#" className="text-sm text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Privacy Policy
               </a>

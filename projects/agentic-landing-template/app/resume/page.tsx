@@ -104,6 +104,27 @@ export default function ResumePage() {
             <div className="space-y-8">
               <div className="relative pl-8 pb-8 border-l-2 border-blue-200 dark:border-blue-800">
                 <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600"></div>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Staff Engineer</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium mb-1">ACME company</p>
+                <p className="text-sm text-slate-500 dark:text-slate-500 mb-3">2024 â€” 2026</p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-400">
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <span>Leading AI infrastructure initiatives and multi-agent orchestration.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <span>Scaling distributed systems to handle high-throughput agentic workflows.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <span>Mentoring senior engineers on AI architecture best practices.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="relative pl-8 pb-8 border-l-2 border-blue-200 dark:border-blue-800">
+                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600"></div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">AI Orchestration Platforms</h3>
                 <p className="text-blue-600 dark:text-blue-400 font-medium mb-3">Lead Architect</p>
                 <ul className="space-y-2 text-slate-600 dark:text-slate-400">
@@ -120,6 +141,34 @@ export default function ResumePage() {
                     <span>Architected orchestration systems adopted across entire engineering organizations for production-grade AI.</span>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* IMPACT */}
+      <section className="py-16 bg-blue-600 text-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold font-display mb-8 flex items-center gap-3">
+              <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Key Impact
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-3 text-blue-100">For Teams</h3>
+                <p className="text-blue-50 leading-relaxed">
+                  I turn overwhelming AI complexity into clear, buildable architectures. I mentor engineers to think about <em>why</em> a system should exist before <em>how</em> to build it, fostering a culture of purposeful engineering.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3 text-blue-100">For Businesses</h3>
+                <p className="text-blue-50 leading-relaxed">
+                  I help organizations move from AI experimentation to operation. My systems have returned thousands of hours of human review time and saved hundreds of thousands in compute spend through intelligent optimization.
+                </p>
               </div>
             </div>
           </div>
