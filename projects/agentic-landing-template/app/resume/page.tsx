@@ -70,7 +70,7 @@ export default function ResumePage() {
 
                 {/* Professional Summary */}
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                  Engineer, systems thinker, and builder specializing in designing intelligent systems where AI agents collaborate to solve complex problems. Over nine years of experience building and rebuilding systems with a focus on orchestration layers that coordinate multiple AI models and data sources.
+                  I'm John Smith — an engineer, systems thinker, and builder at heart. I grew up fascinated by how things connect and work together. That curiosity led me from computer engineering to distributed systems to where I am today: designing intelligent systems where AI agents collaborate to solve problems no single model can tackle alone.
                 </p>
 
                 {/* Social links */}
