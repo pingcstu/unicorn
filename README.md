@@ -2,9 +2,18 @@
 
 **When AI can do anything for you, what will you build?**
 
+Unicorn is your command center to realize your solopreneur unicorn.
+
 ## What Is This?
 
-The Unicorn Project is a product incubator where you discover what to build, who to build for, and how to build it using AI. You will move from idea to deployed product through hands-on projects.
+The Unicorn Project is a product incubator where you discover what to build, who to build for, and how to build it using AI. You will move from idea to deployed product through hands-on projects. It features the WRITITATION™ framework to guide your attention to find your interest, collect and synthesize knowledge, and create and release your ideas in the form of software applications, videos, blogs, lectures, speeches, books — anything that can be created via keyboard and mouse.
+
+## The WRITITATION™ Framework
+
+1. **Attention** — What keeps pulling at you?
+2. **Capture** — Use AI to summarize. Save to your knowledge base.
+3. **Synthesize** — Connect the dots. Form your own thoughts.
+4. **Create** — Make something. Share it. Learn from the making.
 
 ## The Three Questions
 
@@ -45,6 +54,14 @@ When you initialize the Unicorn project for the first time, `template_knowledge/
 ## Managing Your Projects
 
 Each project in `projects/` should be tracked in its own separate git repository. This gives you full control over visibility (public or private) for each project independently.
+
+### First Sample Project: `agentic-landing-template`
+
+Your first project is a personal landing page powered by AI. It solves a common problem: you need a professional web presence but don't want to spend weeks building one from scratch. The template generates a polished landing page that tells your story and showcases your work.
+
+To make it yours, update it with your own personal story and resume from your `personal_knowledge/` vault. Point your AI agent at your profile, goals, and resume files and ask it to rebuild the landing page content around you. The result is a deployed site that reflects who you are and what you're building.
+
+### Creating New Projects
 
 ```bash
 # 1. Add your project to .gitignore so it's not tracked by the parent repo
